@@ -1,0 +1,19 @@
+{
+    "name": "backend-server",
+    "version": "1.0.0",
+    "description": "backend del curso de angular avanzado",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Amado Tello",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "mongoose": "^5.7.4"
+    },
+    "devDependencies": {
+        "nodemon": "^1.19.3"
+    }
+}
